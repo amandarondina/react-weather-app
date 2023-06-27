@@ -1,0 +1,153 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+
+ *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+ body{
+  font-family: 'Outfit', sans-serif;
+  color: #fff;
+  
+ }
+
+h1{
+  font-size: 6rem;
+}
+
+
+.wrapper {
+  display: flex;
+  height: 100dvh;
+  width: 100dvw;
+  background: 
+  linear-gradient(to bottom, rgba(150, 150, 150, 0.52), rgba(20, 20, 20, 0.73)),
+  url('../assets/images/background.png') center top;
+  background-size: cover;
+
+
+  
+}
+
+
+
+.icon{
+  width: 100%;
+  max-width: 10rem;
+  filter:drop-shadow(1rem 1rem 1rem rgba(15, 15, 15, 0.3));
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  padding: 4rem;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.842);
+  border-radius: 20px;
+  width: 60%;
+
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 15px;
+}
+
+.bottom{
+  max-height: 20rem;
+  align-self: center;
+  margin: 0 auto;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  justify-content: space-around;
+  background-color: rgba(59, 59, 59, 0.3);
+  width: 90%;
+  padding: 1rem;
+}
+
+
+
+
+.top{
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+
+.bottom{
+  flex-direction: column;
+   max-width: 20rem;
+   min-height: 17rem;
+  margin: 0 auto;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  justify-content: space-around;
+  background-color: rgba(59, 59, 59, 0.3);
+  width: 90%;
+  padding: 1rem;
+}
+
+.search {
+  text-align: center;
+  padding: 3rem;
+  margin-bottom: 2rem;
+  
+}
+
+.search input{
+  text-transform: capitalize;
+  color: #fff;
+  border: none;
+  background-color: rgba(59, 59, 59, 0.4);
+  padding: 0.7rem;
+  width: 100%;
+  max-width: 20rem;
+  border-radius: 20px;
+}
+
+::placeholder{
+  color: white;
+}
+
+.description{
+  align-self: flex-end;
+  font-size: 2rem;
+  margin-top: -1rem;
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+.temp h1 {
+  font-size: 2rem;
+}
+
+.description{
+  align-self: flex-end;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+
+}
+
+
