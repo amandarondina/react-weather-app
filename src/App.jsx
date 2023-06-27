@@ -24,7 +24,7 @@ function App() {
     <div className="wrapper">
     <div className="app">
       <div className="search">
-        <input
+        <input id="input-form"
           value={location}
           onChange={(event) => setLocation(event.target.value)}
           onKeyDown={searchLocation}
@@ -44,7 +44,7 @@ function App() {
           </div>
           <div className="icon-container">
             {data.weather ? (
-              <img src={`/assets/icons/${icon}.png`} className="icon" />
+              <img src={`../assets/icons/${icon}.png`} className="icon" />
             ) : null}
           </div>
 
